@@ -102,7 +102,11 @@ li,
 label,
 input,
 textarea,
-select {
+select,
+button,
+th,
+td {
+  font-family: var(--font-unified);
   font-size: var(--font-size-body);
 }
 
@@ -123,7 +127,7 @@ a:hover {
   border-radius: var(--radius-md);
   font-family: var(--font-unified);
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--font-size-body);
   cursor: pointer;
   transition: all var(--transition-normal);
   text-decoration: none;
@@ -167,7 +171,7 @@ a:hover {
 
 .btn-sm {
   padding: 0.625rem 1.5rem;
-  font-size: 16px;
+  font-size: var(--font-size-body);
 }
 
 .btn-lg {
@@ -239,7 +243,7 @@ header.scrolled {
 .nav-links a {
   color: var(--dark-gray);
   font-weight: 600;
-  font-size: 16px;
+  font-size: var(--font-size-body);
   transition: all var(--transition-normal);
   position: relative;
   padding: 0.5rem 0.75rem;
@@ -274,7 +278,7 @@ header.scrolled {
   padding: 0.75rem 1.25rem;
   border-radius: var(--radius-md);
   font-weight: 800;
-  font-size: 16px;
+  font-size: var(--font-size-body);
   border: 1px solid rgba(12, 85, 96, 0.75);
   box-shadow: 0 6px 16px rgba(15, 106, 114, 0.28);
   transition: all var(--transition-normal);
@@ -417,7 +421,7 @@ header.scrolled {
 }
 
 .feature-icon {
-  font-size: 3rem;
+  font-size: var(--font-size-sub-title);
   margin-bottom: 1rem;
 }
 
@@ -944,7 +948,7 @@ footer {
   }
 
   .logo {
-    font-size: 16px;
+    font-size: var(--font-size-body);
   }
 
   .site-logo {
@@ -1093,7 +1097,7 @@ footer {
 
   .logo {
     gap: 0.35rem;
-    font-size: 16px;
+    font-size: var(--font-size-body);
   }
 
   .site-logo {
@@ -1133,7 +1137,7 @@ footer {
   .btn-lg,
   .btn-sm {
     padding: 0.75rem 0.65rem;
-    font-size: 16px;
+    font-size: var(--font-size-body);
   }
 
   .nav-links {
